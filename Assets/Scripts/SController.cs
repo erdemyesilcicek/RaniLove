@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SController : MonoBehaviour
 {
+    //Erdem
     private float sSpeedX;
     [SerializeField] float speed;
     [SerializeField] float jumpPower;
