@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class CoinController : MonoBehaviour
 {
     [SerializeField] Text scoreValueText;
-
     private void Update()
     {
         transform.Rotate(new Vector3(0f, 0.5f, 0f));

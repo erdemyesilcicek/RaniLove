@@ -62,6 +62,9 @@ public class SController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Finish"))
         {
+            int presentScene = SceneManager.GetActiveScene().buildIndex;
+            SceneManager.LoadScene(presentScene + 1);
+
             Debug.Log("FINISH");
             Destroy(collision.gameObject);
         }

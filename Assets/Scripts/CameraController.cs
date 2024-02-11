@@ -8,7 +8,7 @@ public class CameraController : MonoBehaviour
     [SerializeField] float minX, maxX;
     void Start()
     {
-        //playerTransform = GameObject.Find("Player").transform;
+        playerTransform = GameObject.Find("Player").transform;
     }
     void Update()
     {
