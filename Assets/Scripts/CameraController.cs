@@ -5,13 +5,10 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
     [SerializeField] Transform playerTransform;
-    [SerializeField] float minX, maxX;
-    void Start()
-    {
-        playerTransform = GameObject.Find("Player").transform;
-    }
+    [SerializeField] float minX, maxX, minY, maxY;
+    void Start() => playerTransform = GameObject.Find("Player").transform;
     void Update()
     {
-        transform.position = new Vector3(Mathf.Clamp(playerTransform.position.x, minX, maxX), transform.position.y, transform.position.z);
+        transform.position = new Vector3(Mathf.Clamp(playerTransform.position.x, minX, maxX), Mathf.Clamp(playerTransform.position.y, minY, maxY), transform.position.z);
     }
 }
