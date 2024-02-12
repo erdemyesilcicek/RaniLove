@@ -68,4 +68,9 @@ public class SController : MonoBehaviour
             Destroy(collision.gameObject);
         }
     }
+    public void restartGame()
+    {
+        int presentScene = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(presentScene);
+    }
 }
