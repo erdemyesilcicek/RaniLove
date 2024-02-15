@@ -10,4 +10,5 @@ public class RestartController : MonoBehaviour
         int presentScene = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(presentScene);
     }
+    public void quitTheGame() => Application.Quit();
 }

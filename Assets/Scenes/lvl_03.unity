@@ -4322,7 +4322,7 @@ Transform:
   m_GameObject: {fileID: 831512759}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10939,11 +10939,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5219948732444490601, guid: 42c504ab0594ed84785d7e9424399058, type: 3}
       propertyPath: dialogue.Array.size
-      value: 20
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 5219948732444490601, guid: 42c504ab0594ed84785d7e9424399058, type: 3}
       propertyPath: dialogue.Array.data[0]
-      value: 'ERDEM: SELAM BEBEGIM!'
+      value: 'ERDEM: SELAM HAYATIM!'
       objectReference: {fileID: 0}
     - target: {fileID: 5219948732444490601, guid: 42c504ab0594ed84785d7e9424399058, type: 3}
       propertyPath: dialogue.Array.data[1]
@@ -10959,67 +10959,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5219948732444490601, guid: 42c504ab0594ed84785d7e9424399058, type: 3}
       propertyPath: dialogue.Array.data[4]
-      value: 'ERDEM: EVET BENDIM AMA SANA SOYLEYEMEZDIM. CUNKU SIRRI BOZARDI.'
+      value: 'ERDEM: EVET..'
       objectReference: {fileID: 0}
     - target: {fileID: 5219948732444490601, guid: 42c504ab0594ed84785d7e9424399058, type: 3}
       propertyPath: dialogue.Array.data[5]
-      value: 'RANI: NE?'
+      value: 'ERDEM: SOYLEYEMEDIM CUNKU SIRRI BOZARDI.'
       objectReference: {fileID: 0}
     - target: {fileID: 5219948732444490601, guid: 42c504ab0594ed84785d7e9424399058, type: 3}
       propertyPath: dialogue.Array.data[6]
-      value: 'RANI: NE SIRRI?!'
-      objectReference: {fileID: 0}
-    - target: {fileID: 5219948732444490601, guid: 42c504ab0594ed84785d7e9424399058, type: 3}
-      propertyPath: dialogue.Array.data[7]
-      value: 'RANI: SEN BENDEN BIR SEY MI SAKLIYOSUN?'
-      objectReference: {fileID: 0}
-    - target: {fileID: 5219948732444490601, guid: 42c504ab0594ed84785d7e9424399058, type: 3}
-      propertyPath: dialogue.Array.data[8]
-      value: 'ERDEM: ELIMDE CICEKLERIMLE SENI BEKLIYORDUM.'
-      objectReference: {fileID: 0}
-    - target: {fileID: 5219948732444490601, guid: 42c504ab0594ed84785d7e9424399058, type: 3}
-      propertyPath: dialogue.Array.data[9]
-      value: 'ERDEM: SANA, SENIN EN NADIDE CICEK OLDUGUNU SOYLEMEK ICIN..'
-      objectReference: {fileID: 0}
-    - target: {fileID: 5219948732444490601, guid: 42c504ab0594ed84785d7e9424399058, type: 3}
-      propertyPath: dialogue.Array.data[10]
-      value: 'RANI: HEHE HE'
-      objectReference: {fileID: 0}
-    - target: {fileID: 5219948732444490601, guid: 42c504ab0594ed84785d7e9424399058, type: 3}
-      propertyPath: dialogue.Array.data[11]
-      value: 'ERDEM: IKIMIZIN DE EN BUYUK HAYALLERINDEN BIRIYDI'
-      objectReference: {fileID: 0}
-    - target: {fileID: 5219948732444490601, guid: 42c504ab0594ed84785d7e9424399058, type: 3}
-      propertyPath: dialogue.Array.data[12]
       value: 'RANI: NE?'
       objectReference: {fileID: 0}
     - target: {fileID: 5219948732444490601, guid: 42c504ab0594ed84785d7e9424399058, type: 3}
+      propertyPath: dialogue.Array.data[7]
+      value: 'RANI: NE SIRRI?!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5219948732444490601, guid: 42c504ab0594ed84785d7e9424399058, type: 3}
+      propertyPath: dialogue.Array.data[8]
+      value: 'RANI: SEN BENDEN BIR SEY MI SAKLIYOSUN?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5219948732444490601, guid: 42c504ab0594ed84785d7e9424399058, type: 3}
+      propertyPath: dialogue.Array.data[9]
+      value: 'ERDEM: ELIMDE CICEKLERIMLE SENI BEKLIYORDUM.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5219948732444490601, guid: 42c504ab0594ed84785d7e9424399058, type: 3}
+      propertyPath: dialogue.Array.data[10]
+      value: 'ERDEM: SANA, SENIN EN NADIDE CICEK OLDUGUNU SOYLEYEBILMEK ICIN..'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5219948732444490601, guid: 42c504ab0594ed84785d7e9424399058, type: 3}
+      propertyPath: dialogue.Array.data[11]
+      value: 'RANI: HEHE HE'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5219948732444490601, guid: 42c504ab0594ed84785d7e9424399058, type: 3}
+      propertyPath: dialogue.Array.data[12]
+      value: 'ERDEM: IKIMIZIN DE EN BUYUK HAYALLERINDEN BIRIYDI'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5219948732444490601, guid: 42c504ab0594ed84785d7e9424399058, type: 3}
       propertyPath: dialogue.Array.data[13]
-      value: 'RANI: HANGISINDEN BAHSEDIYORSUN?'
+      value: 'RANI: NE?'
       objectReference: {fileID: 0}
     - target: {fileID: 5219948732444490601, guid: 42c504ab0594ed84785d7e9424399058, type: 3}
       propertyPath: dialogue.Array.data[14]
-      value: 'RANI: BIZIM COK HAYALIMIZ VAR.'
+      value: 'RANI: HANGISINDEN BAHSEDIYORSUN?'
       objectReference: {fileID: 0}
     - target: {fileID: 5219948732444490601, guid: 42c504ab0594ed84785d7e9424399058, type: 3}
       propertyPath: dialogue.Array.data[15]
-      value: 'ERDEM: COK MERAK ETTIN DI MI?'
+      value: 'RANI: BIZIM COK HAYALIMIZ VAR.'
       objectReference: {fileID: 0}
     - target: {fileID: 5219948732444490601, guid: 42c504ab0594ed84785d7e9424399058, type: 3}
       propertyPath: dialogue.Array.data[16]
-      value: 'ERDEM: ONCE BANA BAK.. BAKTIYSAN CONTINUE BUTONUNA TIKLA.'
+      value: 'ERDEM: COK MERAK ETTIN DI MI?'
       objectReference: {fileID: 0}
     - target: {fileID: 5219948732444490601, guid: 42c504ab0594ed84785d7e9424399058, type: 3}
       propertyPath: dialogue.Array.data[17]
-      value: 'ERDEM: BUNU BURADA ACIKLAYAMAYACAGIM.'
+      value: 'ERDEM: ONCE BANA BAK.. BAKTIYSAN CONTINUE BUTONUNA TIKLA.'
       objectReference: {fileID: 0}
     - target: {fileID: 5219948732444490601, guid: 42c504ab0594ed84785d7e9424399058, type: 3}
       propertyPath: dialogue.Array.data[18]
-      value: 'ERDEM: SAKINCE ARKAMDAKI YESIL COINE ILERLE VE KENDIN OGREN..'
+      value: 'ERDEM: BUNU BURADA ACIKLAYAMAYACAGIM. KENDIN OGRENECEKSIN.'
       objectReference: {fileID: 0}
     - target: {fileID: 5219948732444490601, guid: 42c504ab0594ed84785d7e9424399058, type: 3}
       propertyPath: dialogue.Array.data[19]
-      value: 'ERDEM: SENI COK SEVIYORUM, HER SEY SENIN ICIN..'
+      value: 'ERDEM: SAKINCE ARKAMDAKI YESIL COINE ILERLE VE KENDIN OGREN..'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5219948732444490601, guid: 42c504ab0594ed84785d7e9424399058, type: 3}
+      propertyPath: dialogue.Array.data[20]
+      value: 'ERDEM: SENI COK SEVIYORUM, HER SEY SENIN VE BIZIM ICIN..'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5219948732444490601, guid: 42c504ab0594ed84785d7e9424399058, type: 3}
+      propertyPath: dialogue.Array.data[21]
+      value: 'ERDEM: '
       objectReference: {fileID: 0}
     - target: {fileID: 5832418980718259228, guid: 42c504ab0594ed84785d7e9424399058, type: 3}
       propertyPath: m_LocalPosition.x
