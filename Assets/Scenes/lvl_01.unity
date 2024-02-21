@@ -1677,6 +1677,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreValueText: {fileID: 1444551828}
+  coinValue: 25
 --- !u!58 &364295041
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3993,6 +3994,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreValueText: {fileID: 1444551828}
+  coinValue: 25
 --- !u!58 &1077760475
 CircleCollider2D:
   m_ObjectHideFlags: 0
